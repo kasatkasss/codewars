@@ -1,6 +1,6 @@
 const reverseSeq = n => {
     let arr = [];
-    for(i = 5; i != 0; i--){
+    for(i = n; i >= 1; i--){
       arr.push(i);
     }
     return arr;
